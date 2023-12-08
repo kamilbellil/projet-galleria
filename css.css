@@ -1,0 +1,58 @@
+.taztoz{
+    border:red solid;
+}
+
+.navbar-brand img {
+    border-radius: 50px; /* Pour rendre l'image circulaire, facultatif */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ajouter une ombre */
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.1); /* Agrandir l'image au survol, facultatif */
+
+}
+.nav-item .nav-link{
+    transition: background-color 1s;
+    border-radius: 5em;
+}
+.nav-item .nav-link:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5em;
+    
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    border-width: 50em; /* Définissez l'épaisseur souhaitée */
+}
+.text {
+    
+    opacity: 0; /* Initialement, l'élément est invisible */
+    transition: opacity 3s ease; /* Ajoute une transition d'une durée de 1 seconde avec une fonction d'accélération */
+}
+
+.text.visible {
+    opacity: 1; /* Lorsque la classe 'visible' est ajoutée, l'élément devient visible avec une transition */
+}
+.transformm{
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% de la hauteur de la vue (viewport height) */
+    margin: 0;
+}
+
+.divfooter {
+    flex: 1; /* Le contenu prendra l'espace restant */
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto; /* Le pied de page sera aligné en bas */
+}
